@@ -6,7 +6,7 @@ import numpy as np
 app = FastAPI()
 
 # Load your pre-trained model
-model = load_model("my_model_weights.h5")
+model = load_model("model/my_model_weights.h5")
 
 # Define the disease classes
 disease_classes = ["BA-cellulitis", "BA-impetigo", "FU-athlete-foot", "FU-nail-fungus", "FU-ringworm", "PA-cutaneous-larva-migrans", "VI-chickenpox", "VI-shingles"]
